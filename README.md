@@ -1,7 +1,7 @@
 # tab1-fig2
 
 This repository contains slides, code, and supplementary materials for the "The results in Table 1 don’t seem to correspond to those in Figure 2" talk I gave at 
-- [DataTech, March 2019](/01-datatech) in Edinburgh, Scotland <i class="fab fa-speaker-deck"></i>
+- [DataTech, March 2019](/01-datatech) in Edinburgh, Scotland :fa-speaker-deck:
 - [University of Cincinnati, April 2019](/02-uoc) in Cincinccati, OH, USA
 - [Connect IPSDS, June 2019](/03-connect) in Mannheim, Germany
 - [ISCB RSG Turkey, August 2019](/04-iscb-rsg) as a webinar
