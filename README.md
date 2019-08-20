@@ -2,10 +2,10 @@
 
 This repository contains slides, code, and supplementary materials for the "The results in Table 1 don’t seem to correspond to those in Figure 2" talk I gave at 
 
-[🔗](https://speakerdeck.com/minecr/the-results-in-table-1-dont-seem-to-correspond-to-those-in-figure-2)[DataTech, March 2019](/01-datatech) in Edinburgh, Scotland  
-[🔗](https://speakerdeck.com/minecr/the-results-in-table-1-dont-seem-to-correspond-to-those-in-figure-2-396059fb-b854-4763-b3fb-e799f76286da) [University of Cincinnati, April 2019](/02-uoc) in Cincinccati, OH, USA  
-[🔗](https://speakerdeck.com/minecr/the-results-in-table-1-dont-seem-to-correspond-to-those-in-figure-2-765bc747-3eb3-48ec-9a56-83e1156a6e3) [Connect IPSDS, June 2019](/03-connect) in Mannheim, Germany  
-[🔗](https://speakerdeck.com/minecr/the-results-in-table-1-dont-seem-to-correspond-to-those-in-figure-2-427452c9-ca4f-4e35-b911-590e6c577430) [ISCB RSG Turkey, August 2019](/04-iscb-rsg) as a webinar  
+- [DataTech, March 2019](/01-datatech) in Edinburgh, Scotland [[Slideshow]](https://speakerdeck.com/minecr/the-results-in-table-1-dont-seem-to-correspond-to-those-in-figure-2)
+- [University of Cincinnati, April 2019](/02-uoc) in Cincinccati, OH, USA [[Slideshow]](https://speakerdeck.com/minecr/the-results-in-table-1-dont-seem-to-correspond-to-those-in-figure-2-396059fb-b854-4763-b3fb-e799f76286da) 
+- [Connect IPSDS, June 2019](/03-connect) in Mannheim, Germany [[Slideshow]](https://speakerdeck.com/minecr/the-results-in-table-1-dont-seem-to-correspond-to-those-in-figure-2-765bc747-3eb3-48ec-9a56-83e1156a6e3) 
+- [ISCB RSG Turkey, August 2019](/04-iscb-rsg) as a webinar [[Slideshow]](https://speakerdeck.com/minecr/the-results-in-table-1-dont-seem-to-correspond-to-those-in-figure-2-427452c9-ca4f-4e35-b911-590e6c577430) 
 
 The talk was revised a bit each time.
 
