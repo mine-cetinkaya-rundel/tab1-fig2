@@ -1,0 +1,58 @@
+---
+title: "Table 1 matches Figure 2!"
+author: "Mine Çetinkaya-Rundel"
+date: "`r Sys.Date()`"
+output: 
+  html_document:
+    fig_caption: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE)
+```
+
+```{r}
+library(tidyverse)
+conflict_prefer("filter", "dplyr")
+library(broom)
+library(knitr)
+```
+
+In this report we evaluate the relationship between relationship between petal 
+length and sepal width for irises.
+
+```{r}
+iris_nonsetosa <- iris %>%
+  filter(Species != "setosa")
+```
+
+The original dataset has `r iris$Species %>% unique() %>% length()` species, but 
+we will only work with `r iris_nonsetosa$Species %>% unique() %>% length()` of 
+them.
+
+## Model 
+
+The model results are below.
+
+```{r caption = "Table 1"}
+m_pl_sw <- lm(Petal.Length ~ Sepal.Width, data = iris_nonsetosa)
+tidy_m_pl_sw <- tidy(m_pl_sw)
+kable(tidy_m_pl_sw, 
+      caption = "Table 1. Regression output for predicting petal length 
+      from sepal width.", 
+      digits = 2)
+```
+
+The slope of the regression model is `r tidy_m_pl_sw %>% filter(term == "Sepal.Width") %>% pull(estimate) %>% round(2)`.
+
+## Visualize
+
+The figure below shows the relationship between these variables, and we observe 
+a positive slope in this visualization as well.
+
+```{r fig.cap = "Figure 2. Relationship between petal length and sepal width"}
+ggplot(iris_nonsetosa) +
+  geom_point(aes(x = Sepal.Width, y = Petal.Length, color = Species)) +
+  geom_smooth(aes(x = Sepal.Width, y = Petal.Length), method = "lm") 
+```
+
